@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: test
+  jpa:
+    properties:
+      hibernate:
+        ddl-auto: create
+        dialect: org.hibernate.dialect.H2Dialect
+        default_batch_fetch_size: 500
+#        show_sql: true
+        format_sql: true
+        logging:
+          level:
+            org.hibernate.SQL: debug
+            com.zaxxer.hikari.HikariConfig: DEBUG
+            com.zaxxer.hikari: TRACE
