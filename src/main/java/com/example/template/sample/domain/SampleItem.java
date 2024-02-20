@@ -1,5 +1,6 @@
 package com.example.template.sample.domain;
 
+import com.example.template.global.entity.BaseEntity;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -7,7 +8,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @Getter
 @NoArgsConstructor
-public class SampleItem {
+public class SampleItem extends BaseEntity {
     @Id
     private Long id;
 
