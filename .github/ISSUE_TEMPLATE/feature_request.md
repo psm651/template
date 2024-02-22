@@ -1,6 +1,6 @@
 ---
-name: Custom issue template
-about: github issue template
+name: Feature request
+about: Suggest an idea for this project
 title: ''
 labels: ''
 assignees: ''
@@ -9,6 +9,8 @@ assignees: ''
 
 ## 목적
 >
+
 ## 작업내용
-- []
+- [ ] 
+
 ## 참고사항
