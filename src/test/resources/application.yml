@@ -19,6 +19,10 @@ spring:
             org.hibernate.SQL: debug
             com.zaxxer.hikari.HikariConfig: DEBUG
             com.zaxxer.hikari: TRACE
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
   h2:
     console:
       enabled: true
